@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li:hover {
+  color: #6fe8d7;
+}
+
+.navlinks li a {
+  transition: all 0.5s ease;
+}
+
+.navlinks li a:hover {
+  color: blue;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: all 0.5s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+  background: #274471;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 270px;
+
+  margin: 10px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.car-1 {
+  background-image: url(./lamborghini-cost.jpg);
+}
+
+.car-2 {
+  background-image: url(./bentley.jpg);
+}
+
+.car-3 {
+  background-image: url(./2019_Rolls-Royce_Wraith_V12_Automatic_6.6.jpg);
+}
+
+.car-4 {
+  background-image: url(./4.jpg);
+}
+.car-5 {
+  background-image: url(./5.jpg);
+}
+
+.car-6 {
+  background-image: url(./6.jpg);
+}
+
+.car-7 {
+  background-image: url(./7.jpg);
+}
+
+.car-8 {
+  background-image: url(./8.webp);
+}
+
+.car-9 {
+  background-image: url(./9.jpg);
+}
+
+.car-10 {
+  background-image: url(./10.jpg);
+}
+
+.car-11 {
+  background-image: url(./11.png);
+}
+
+.car-12 {
+  background-image: url(./12.jpg);
+}
+
+.car-13 {
+  background-image: url(./13.jpg);
+}
+
+.car-14 {
+  background-image: url(./14.jpg);
+}
+
+.car-15 {
+  background-image: url(./15.jpg);
+}
+
+.car-16 {
+  background-image: url(./16.jpg);
+}
+
+.car-17 {
+  background-image: url(./17.jpg);
+}
+
+.car-18 {
+  background-image: url(./18.jpg);
+}
+
+.car-19 {
+  background-image: url(./273495784_2065359016958666_1063756464749574274_n.jpg);
+}
+
+.car-20 {
+  background-image: url(./273672583_2235811196570684_8708722008959787857_n.jpg);
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: #6fe8d7;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
+
+span {
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgb(243, 243, 243);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 25px 25px 25px 25px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 0 16px 0;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #1ac0f3;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #6fe8d7;
+}
